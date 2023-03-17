@@ -14,7 +14,7 @@
   color: #504e4e;
 }
 .logo {
-  max-width: 220px !important;
+  max-width: 250px !important;
 }
 .icono {
   max-width: 30px;
@@ -30,10 +30,10 @@
   line-height: 16px;
   color: #525150;
 }
-.nav-link:hover{
-font-weight: 600;
-color: #1d1d1d;
-font-size: 13px;
+.nav-link:hover {
+  font-weight: 600;
+  color: #1d1d1d;
+  font-size: 13px;
 }
 .container-vendidos {
   background-color: #fbf2e8;
@@ -64,7 +64,6 @@ span {
 select,
 option {
   font-family: "Roboto", sans-serif;
-
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -72,12 +71,54 @@ option {
   color: #000000;
 }
 .banner-publicidad {
-  width: 540px !important;
+  width: 890px !important;
   height: auto;
 }
-.mini-banner {
-  width: 200px !important;
-  height: 295px;
+
+.card {
+  border: none !important;
+}
+.card-body {
+  background-color: rgba(250, 250, 250, 0.4) !important;
+  backdrop-filter: blur(10px);
+}
+.card-nombre {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto Flex", sans-serif;
+  color: #504e4e;
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+.card-descripcion {
+  font-family: "Roboto Flex", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #504e4e;
+  margin-bottom: 5px !important;
+}
+.card-precio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Inter", sans-serif;
+  color: #504e4e;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+.btn-agregar {
+  font-family: "Inter", sans-serif;
+  background-color: #f067d9c3;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .footer {
@@ -90,7 +131,6 @@ option {
   font-weight: 700;
   font-size: 15px;
   line-height: 15px;
-
   color: #ffffff;
 }
 .icono-redes {
@@ -102,7 +142,7 @@ option {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 14px;
+
   font-family: "Roboto Flex", sans-serif;
   color: #ffffff;
 }
@@ -128,7 +168,7 @@ li {
   line-height: 15px;
   color: #ffffff;
 }
-hr{
-    color: #ffffff;
-    height: 2opx;
+hr {
+  color: #ffffff;
+  height: 2opx;
 }
